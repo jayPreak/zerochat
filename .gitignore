@@ -14,7 +14,7 @@
 *.userprefs
 /pages
 pages
-utils
+# utils
 # themes
 # graphql
 PublishScripts
