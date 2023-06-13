@@ -38,14 +38,20 @@ export default function Home() {
     }
   }, [data]);
 
-  const searchUser = () => {
+  const searchUser = (value) => {
     getSearchedUsers({
       variables: {
-        value: searchValue,
+        value,
       },
     });
   };
-
+  useEffect(() => {
+    if (searchValue) {
+      searchUser(searchValue);
+    } else if (usersRef.current) {
+      setUsers(usersRef.current);
+    }
+  }, [searchValue]);
   // useEffect(() => {
   //   if (searchValue) {
   //     searchUser(searchValue);
@@ -84,15 +90,15 @@ export default function Home() {
               clearable
               labelPlaceholder="User"
               onClearClick={() => {
-                // setSearchValue("");
+                setSearchValue("");
                 setUsers(usersRef.current);
               }}
               initialValue={searchValue}
               onChange={(e) => setSearchValue(e.target.value)}
             />
-            <Button color="error" auto onClick={() => searchUser()}>
+            {/* <Button color="error" auto onClick={() => searchUser(searchUser)}>
               Search user
-            </Button>
+            </Button> */}
           </Row>
 
           <Spacer y={3} />
