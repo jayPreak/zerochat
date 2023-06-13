@@ -12,9 +12,12 @@ import {
   Row,
   Loading,
 } from "@nextui-org/react";
+import { gql } from "@apollo/client";
+import getUsersQuery from "../graphql/queries/getUsers.ts";
+import searchUsersQuery from "../graphql/queries/searchUsers.ts";
 
-import GET_USERS from "../graphql/queries/getUsers.gql";
-import SEARCH_USERS from "../graphql/queries/searchUsers.gql";
+const GET_USERS = gql(getUsersQuery);
+const SEARCH_USERS = gql(searchUsersQuery);
 
 export default function Home() {
   const [users, setUsers] = useState([]);

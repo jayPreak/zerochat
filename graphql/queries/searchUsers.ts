@@ -1,4 +1,4 @@
-query getSearchUsers($value: String) {
+export default `query getSearchUsers($value: String) {
   searchUser(value: $value) {
     id
     firstName
@@ -7,4 +7,4 @@ query getSearchUsers($value: String) {
     username
     image
   }
-}
+}`;

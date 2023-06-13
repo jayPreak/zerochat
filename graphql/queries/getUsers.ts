@@ -1,4 +1,4 @@
-query getUsers {
+export default `query getUsers {
   users {
     id
     firstName
@@ -7,4 +7,4 @@ query getUsers {
     username
     image
   }
-}
+}`;
