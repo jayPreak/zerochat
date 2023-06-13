@@ -13,8 +13,8 @@ import {
   Loading,
 } from "@nextui-org/react";
 import { gql } from "@apollo/client";
-import getUsersQuery from "../graphql/queries/getUsers.ts";
-import searchUsersQuery from "../graphql/queries/searchUsers.ts";
+import getUsersQuery from "../graphql/queries/getUsers";
+import searchUsersQuery from "../graphql/queries/searchUsers";
 
 const GET_USERS = gql(getUsersQuery);
 const SEARCH_USERS = gql(searchUsersQuery);
