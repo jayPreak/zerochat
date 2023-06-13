@@ -87,7 +87,7 @@ export default function Home() {
             //
           }}
         >
-          <Spacer y={2.5} />
+          <Spacer y={2.4} />
           <Row justify="center" align="center">
             <Input
               clearable
@@ -104,7 +104,7 @@ export default function Home() {
             </Button> */}
           </Row>
 
-          <Spacer y={2.5} />
+          <Spacer y={2.4} />
           <Row justify="center" align="center">
             {loading ? (
               <Loading />
