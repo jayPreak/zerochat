@@ -11,7 +11,7 @@ const apolloServer = new ApolloServer({
   resolvers,
   // plugins: [ApolloServerPluginLandingPageGraphQLPlayground()],
   introspection: true,
-  plugins: [ApolloServerPluginLandingPageGraphQLPlayground()],
+  // plugins: [ApolloServerPluginLandingPageGraphQLPlayground()],
 });
 
 const handler = startServerAndCreateNextHandler(apolloServer, {
