@@ -9,7 +9,9 @@ import allowCors from "../../utils/cors";
 const apolloServer = new ApolloServer({
   typeDefs,
   resolvers,
-  plugins: [ApolloServerPluginLandingPageGraphQLPlayground()],
+  // plugins: [ApolloServerPluginLandingPageGraphQLPlayground()],
+  introspection: true,
+  playground: true,
 });
 
 const handler = startServerAndCreateNextHandler(apolloServer, {
