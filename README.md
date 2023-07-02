@@ -51,6 +51,8 @@ Contributions are welcome! Please feel free to open a new issue or submit a pull
 This project was inspired by nothing rly.
 
 ## Contact
-For any inquiries or suggestions, please contact [jayesh.preak2003@gmail.com](mailto:jayesh.preak2003@gmail.com).
+For any inquiries or suggestions, please contact:
+- Email: [jayesh.preak2003@gmail.com](mailto:jayesh.preak2003@gmail.com)
+- Twitter: [@jayPreak](https://twitter.com/jayPreak)
 
   
