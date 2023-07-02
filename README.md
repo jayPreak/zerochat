@@ -29,4 +29,28 @@ A simple user search application built with Next.js and TypeScript. The app fetc
   4. Start the development server:
      ```bash
      npm run dev
+
+## Technologies Used
+- Next.js
+- TypeScript
+
+## API Used
+- User API
+
+## Screenshots
+![image](https://github.com/jayPreak/zerosearch/assets/68821643/695b1ea2-3572-4e04-a415-21e4fe01873b)
+
+
+## License
+This project is licensed under the MIT License.
+
+## Contributing
+Contributions are welcome! Please feel free to open a new issue or submit a pull request for any improvements or bug fixes.
+
+## Acknowledgements
+This project was inspired by nothing rly.
+
+## Contact
+For any inquiries or suggestions, please contact [jayesh.preak2003@gmail.com](mailto:jayesh.preak2003@gmail.com).
+
   
