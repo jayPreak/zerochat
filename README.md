@@ -5,6 +5,13 @@
 
 A simple user search application built with Next.js and TypeScript. The app fetches a list of users from an API and dynamically displays the search results as you type.
 
+<div align="left">
+
+❤️ Hosted [here](https://zerosearch.vercel.app) 🥰
+
+</div>
+
+
 ## Features
 
 - Fetches a list of users from an API
